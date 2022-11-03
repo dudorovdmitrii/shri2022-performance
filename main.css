@@ -1,3 +1,20 @@
+ @media (prefers-reduced-motion: no-preference) {
+   :root {
+     scroll-behavior: smooth;
+   }
+ }
+
+ [role=button] {
+   cursor: pointer;
+ }
+
+ button:not(:disabled),
+ [type=button]:not(:disabled),
+ [type=reset]:not(:disabled),
+ [type=submit]:not(:disabled) {
+   cursor: pointer;
+ }
+
 a:hover {
   color: var(--bs-link-hover-color);
 }
