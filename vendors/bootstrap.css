@@ -89,14 +89,6 @@ h4, h3, h2 {
     margin-bottom: 1rem;
   }
 
-  abbr[title] {
-    -webkit-text-decoration: underline dotted;
-    text-decoration: underline dotted;
-    cursor: help;
-    -webkit-text-decoration-skip-ink: none;
-    text-decoration-skip-ink: none;
-  }
-
   ul {
     padding-left: 2rem;
   }

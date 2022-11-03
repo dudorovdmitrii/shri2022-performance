@@ -1,3 +1,7 @@
+a:hover {
+  color: var(--bs-link-hover-color);
+}
+
 @keyframes showMenu {
   from {
     transform: translateY(-1rem);
