@@ -81,3 +81,8 @@ a:hover {
   background: #fff;
   box-shadow: 0 2px 6px 0 rgba(197, 186, 186, 0.50);
 }
+
+[list]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=week]):not([type=time])::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+

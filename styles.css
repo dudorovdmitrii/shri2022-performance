@@ -91,12 +91,10 @@
 
     ul {
         padding-left: 2rem;
-    }
-
-    ul {
         margin-top: 0;
         margin-bottom: 1rem;
     }
+
 
     ul ul {
         margin-bottom: 0;
@@ -144,10 +142,6 @@
 
     select:disabled {
         opacity: 1;
-    }
-
-    [list]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=week]):not([type=time])::-webkit-calendar-picker-indicator {
-        display: none !important;
     }
 
     button,
@@ -204,10 +198,6 @@
     ::file-selector-button {
         font: inherit;
         -webkit-appearance: button;
-    }
-
-    [hidden] {
-        display: none !important;
     }
 }
 
@@ -301,7 +291,6 @@ video {
     vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
